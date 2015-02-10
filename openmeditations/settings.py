@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '#)z+9s1s+bz)s+u%7)r^gv8457@$ky+urf6cr=4sg=8-2x4zz%'
+SECRET_KEY = 't(^%q28k*tnl$=l*@*%v$tew%6mixn6w*l-lq=+=0s*h1gpkf1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -59,7 +59,7 @@ WSGI_APPLICATION = 'openmeditations.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'meditations.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
